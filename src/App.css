@@ -1,0 +1,40 @@
+#root {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+}
+
+#mainDiv {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  text-align: center;
+}
+#subDiv {
+  border: 1px groove lightgray;
+  overflow: hidden;
+  border-radius: 5px;
+}
+#bio {
+  color: cornflowerblue;
+}
+#location {
+  color: lightslategray;
+}
+button {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  width: 6vw;
+  height: 3vw;
+  color: darkturquoise;
+  background-color: honeydew;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+img {
+  border-radius: 5px;
+}
+
+
